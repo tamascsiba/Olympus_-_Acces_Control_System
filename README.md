@@ -518,12 +518,3 @@ It demonstrates not only coding ability, but also system-level thinking across t
 ## Author
 
 **Tamás Csiba**
-
-GitHub: [tamascsiba](https://github.com/tamascsiba)
-
----
-
-## License
-
-You can add a license section here if you want to make the repository open-source under MIT or another license.
-
