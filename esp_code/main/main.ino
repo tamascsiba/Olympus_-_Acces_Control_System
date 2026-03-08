@@ -6,8 +6,8 @@
 #include <ArduinoJson.h>
 
 // WiFi beállítások
-const char* ssid = "Olympus_GYM_admin";
-const char* password = "Olympusadmin2020";
+const char* ssid = "wifi_ssid";
+const char* password = "wifi_password";
 
 HardwareSerial mySerial1(1);
 HardwareSerial mySerial2(2);
@@ -128,7 +128,7 @@ void sendToServer(uint8_t *uid, uint8_t uidLength, uint8_t readerNum) {
 
   WiFiClient client;       // <<< mindig új példány
   HTTPClient http;
-  String serverUrl = "http://51.21.181.218:8000/api/check_card/";
+  String serverUrl = "http://IP_address/api/check_card/";
 
   Serial.print("[Reader");
   Serial.print(readerNum);
